@@ -2,7 +2,7 @@
   <layout-wrapper>
     <layout-visual
       title="NUXT SMAPLE SITE DEMO"
-      message="お知らせやメニューをmicroCMSを導入したDEMOサイトになります。"
+      message="お知らせやメニューをmicroCMSを導入したDEMOサイトになります。Netlifyでデプロイしております。"
     />
     <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
       <base-heading>MdN Cafeのおすすめメニュー</base-heading>

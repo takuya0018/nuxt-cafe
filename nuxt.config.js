@@ -4,9 +4,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-page',
+    // title: 'nuxt-page',
+    titleTemplate(title) {
+      return (title ? `${title} | ` : '') + process.env.npm_package_name
+    },
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
